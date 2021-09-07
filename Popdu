@@ -1,0 +1,52 @@
+<! POPDU html>
+<html>
+
+<head>
+    <title>
+        Popdu
+    </title>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+        }
+
+        #full-screen-background-image {
+            z-index: -999;
+            min-height: 100%;
+            min-width: 1024px;
+            width: 100%;
+            height: auto;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        #wrapper {
+            position: relative;
+            width: 800px;
+            min-height: 400px;
+            margin: 100px auto;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body onclick="pop()">
+
+    <img alt="full screen background image" src="green.jpg" id="full-screen-background-image">
+
+    <DIV STYLE="position:absolute; top:200px; left:50px; width:200px; height:25px">
+        <h1>fake pop cat</h1>
+        <h2 id="point">0</h2>
+    </DIV>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
