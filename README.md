@@ -10,4 +10,4 @@ Ncat
  <title  >Pop ini K/titl
  </head>
  <body>
- <div class="wrapper"> Follow link (ctrl + click) <img id="popcat" src="./images/freeman1.png" alt=""  > <button id="btn">POP</button> </div> </body> </html>
+ <div class="wrapper"> Follow link (ctrl + click) <img id="popdu" src="./storage/emulated/0/Pictures/FaceApp/IMG_20210907_143359.jpg" alt=""  > <button id="btn">POP</button> </div> </body> </html>
